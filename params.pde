@@ -4,6 +4,11 @@ static class Params{
   
   static int height = 720;
   
-  static int fieldSamples = 1280/4;
-  
+  static int fieldSamples = Params.width;
+
+  static int nRows = 3;
+
+  static int nFields = 3;
+
+  static int textMarginLeft = 10;
 }
